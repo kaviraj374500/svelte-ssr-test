@@ -1,0 +1,11 @@
+{
+  "repositoryName": "embrace-slice-machine",
+  "adapter": {
+    "resolve": "@slicemachine/adapter-sveltekit",
+    "options": {
+      "typescript": true
+    }
+  },
+  "libraries": ["./src/lib/slices"],
+  "localSliceSimulatorURL": "http://localhost:5173/slice-simulator"
+}
