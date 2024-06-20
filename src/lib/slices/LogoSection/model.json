@@ -1,0 +1,44 @@
+{
+  "id": "logo_section",
+  "type": "SharedSlice",
+  "name": "LogoSection",
+  "description": "LogoSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "preview_background_image": {
+          "type": "Link",
+          "config": {
+            "label": "Preview Background Image",
+            "placeholder": "",
+            "select": "media"
+          }
+        },
+        "logo_section_list": {
+          "type": "Group",
+          "config": {
+            "label": "Logo Section List",
+            "repeat": true,
+            "fields": {
+              "logo": {
+                "type": "Image",
+                "config": {
+                  "label": "Logo",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

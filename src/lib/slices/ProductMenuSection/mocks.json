@@ -1,0 +1,35 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"product_menu_section_list": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"menu_name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "card",
+									"type": "Text"
+								}
+							],
+							[
+								"menu_uid",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "solution",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

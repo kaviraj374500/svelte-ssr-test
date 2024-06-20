@@ -1,0 +1,30 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"left_video_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://ddhpn2fye99bm.cloudfront.net/embrace/mixing_v1.mp4"
+				}
+			},
+			"right_video_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://ddhpn2fye99bm.cloudfront.net/embrace/morning_v1.mp4"
+				}
+			},
+			"mobile_video_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://ddhpn2fye99bm.cloudfront.net/embrace/hero-mobile.mp4"
+				}
+			}
+		},
+		"items": []
+	}
+]

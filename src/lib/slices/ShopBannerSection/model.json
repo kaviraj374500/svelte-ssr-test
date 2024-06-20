@@ -1,0 +1,64 @@
+{
+  "id": "shop_banner_section",
+  "type": "SharedSlice",
+  "name": "ShopBannerSection",
+  "description": "ShopBannerSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "svg_animaton_text": {
+          "type": "Text",
+          "config": {
+            "label": "Svg Animaton Text",
+            "placeholder": ""
+          }
+        },
+        "shop_banner_section_list": {
+          "type": "Group",
+          "config": {
+            "label": "Shop Banner Section List",
+            "repeat": true,
+            "fields": {
+              "breadcrumb_name": {
+                "type": "Text",
+                "config": {
+                  "label": "Breadcrumb Name",
+                  "placeholder": ""
+                }
+              },
+              "breadcrumb_uid": {
+                "type": "Text",
+                "config": {
+                  "label": "Breadcrumb UID",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

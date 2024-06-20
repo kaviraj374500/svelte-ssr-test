@@ -1,0 +1,2156 @@
+@media screen and (min-width: 1920px) {
+    /* 01 globle styleing */
+    /* h1 {
+        font-size: 88px;
+        line-height: 94px;
+    }
+    h2 {
+        font-size: 54px;
+        line-height: 60px;
+    }
+    .core h2 {
+        font-size: 120px;
+        line-height: 1;
+    }
+    h3 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    h5 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .core-card h5{
+        font-size: 30px;
+        line-height: 28px;  
+    }
+    .core-card1 h5{
+        font-size: 30px;
+        line-height: 28px;  
+    }
+    h6 {
+        font-size: 20px;
+        line-height: 26px;
+    } */
+    /* ====== index.html ====== */
+    .social-rating h6{
+       font-size: 16px;
+       line-height: 22px;
+    }
+    .whats-feature{
+        margin-top: -31vh;
+        padding-top: 40vh;
+        padding-bottom: 25vh !important;
+    }
+    .whats-core {
+        margin-top: -20vh;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    /* ====== index.html ====== */
+    /* .visa{
+        margin-bottom: 100px;
+    } */
+    .sevices_img img[alt='sevice_img3'] {
+        top: -380px;
+        left: 524px;
+    }
+    .fin-card {
+        padding: 0px 50px;
+    }
+    .bg404{
+        height: 100vh;
+    }
+    .footor404{
+        padding-top: 80px;
+    }
+}
+@media screen and (max-width: 1399.98px) {
+    .visa h1 {
+        font-size: 52px;
+        line-height: 1;
+    }
+    .visa h3 {
+        font-size: 28px;
+    }
+    .core-card h5, .core-card1 h5{
+        font-size: 20px;
+    }
+    .core-card p, .core-card1 p{
+        font-size: 14px;
+    }
+    .news-card-back .card-body h3 {
+        font-size: 21px;
+        line-height: 1.3;
+    }
+    section.visa {
+        height: 630px;
+    }
+    .character-product img {
+        top: -106px;
+    }
+    .visa-contant p{
+        font-size: 18px;
+    }
+    .card-img-1 img{
+        bottom: 65px; 
+    }
+    .title-card{
+        margin-top: -60px;
+    }
+    h1.core-t, section.behind h1, .about-hero h1, .behind-about h1, section.visa1 h1, .whats-core h1.core-t, .news-cards h1{
+        font-size: 80px;
+    }
+    .b-back{
+        margin: 0px 0px 350px 0px;
+    }
+    .whats-feature{
+        padding-top: 320px;
+    }
+    label.pack-label{
+        left: 15px;
+        top: 60px;
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    /* ====== index.html ====== */
+    .hero .position-relative {
+        background-size: 100% 110%;
+        background-position: 47px -49px;
+    }
+    .next-arrow{
+        left: 752px;  
+    }
+    .privacy {
+        margin-left: 0px;
+        flex-direction: column;
+    }
+    .privacy a {
+        padding: 0px;
+    }
+    .core img.right-core-img, .whats-core img.right-core-img{
+        /* width: 70px;
+        top: 0px; */
+        width: 80px;
+        top: -15px;
+        left: 10px;
+    }
+    .core img.left-core-img, .whats-core img.left-core-img {
+        /* width: 70px;
+        top: 0px; */
+        width: 80px;
+        top: -15px;
+        right: 10px;
+    }
+    .behind-about .ps-4 p {
+        font-size: 18px;
+        line-height: 1.6;
+        font-weight: 600;
+    }
+    .behind-about .ps-4 h4 {
+        font-size: 24px;
+        line-height: 1.3;
+        color: #4601ce;
+    }
+    .product-ingredient img {
+        width: 130px;
+    }
+    .character-product img {
+        position: relative;
+        width: 100%;
+        right: 0;
+        top: 21px;
+    }
+    section.visa1 .visa-contant{
+        background-color: rgb(78 246 0);
+    }
+    .visa1 .visa-bg-green{
+        padding: 0px 55px 0px 0px; 
+        background-color: transparent;
+    }
+    .visa1 .visa-contant .visa-card img{
+        transform: scale(2.5);
+        left: 20px;
+        top: 55px;
+    }
+    section.visa {
+        height: 480px;
+    }
+    .title-card {
+        margin-top: -85px;
+        padding: 0 20px;
+    }
+    .card-img-1 img {
+        bottom: 110px;
+    }
+    .about-card .banner-text{
+        padding: 40px 20px 40px 10px;
+    }
+    .related-products .slick-slide div {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+    /* .card-viewer {
+        gap: 15px;
+        flex-wrap: wrap;
+    } */
+    .news-cards h2 {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+    .character-product {
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+    .about-card .about-banner{
+        margin: 50px 20px;
+        width: 95%;
+    }
+    .profaessional{
+        padding-top: 100px;
+    }
+    .help-crd1 {
+         padding: 30px 20px 30px 20px; /* https://github.com/Embrace-Drink/ecomm-without-backend/issues/418 */
+    }
+    .help-crd1 i{
+        padding: 12px 10px 12px 0;
+    }
+    .help span{
+        font-size: 14px;
+    }
+    .cancel-order-popup .modal-content{
+        max-width: 95%;
+        margin: 2.5rem auto;
+    }
+    .b-back{
+        margin: 0px 0px 455px 0px;
+    }
+    section.product-bg-about .services {
+        margin: 40px 0px;
+    }
+    .behind.news-cards {
+        padding-top: 150px;
+    }  
+    .whats-feature{
+        padding-top: 320px;
+    } 
+    label.pack-label {
+        left: 45px;
+        top: 70px;
+    } 
+}
+
+@media screen and (max-width: 1199.98px) { 
+     /* ====== index.html ====== */
+    .sevices_img img[alt='sevice_img3'] {
+      display: none;
+    }
+    /* section.product-bg-about{
+        margin-top: -265px;
+    } */
+    /* Git issue #300 fixing */
+    .core-card {
+        padding-right: 100px;
+        padding-left: 20px;
+    }
+    .core-card1 {
+        padding-right: 42px;
+        padding-left: 100px;
+    }
+    .core-card p, .core-card1 p {
+        font-size: 16px;
+    }
+    .whats-core .core-card, .whats-core .core-card1 {
+        min-height: 130px;
+    }
+    .about-hero h1{
+        font-size: 56px;
+    }
+    .about-hero h2 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Git issue #300 fixing */
+    .core-card {
+        padding-right: 90px;
+        padding-left: 15px;
+    }
+    .core-card1 {
+        padding-right: 15px;
+        padding-left: 90px;
+    }
+    .core-card h5, .core-card1 h5 {
+        font-size: 16px;
+    }
+    .core-card p, .core-card1 p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+     /* 01 globle styleing */
+     .container {
+        max-width: 960px;
+    }
+    h1 {
+        font-size: 60px;
+        line-height: 74px;
+       
+    }
+     /* ====== index.html ====== */
+     .navbar-toggle{
+        display: block;
+    }
+    .hero img[alt='hero_img1'] {
+        width: 98%;
+        position: relative;
+        top: -30px;
+        left: -39px;
+    }
+    .w-v{
+        display: none;
+    }
+    .finance h2 {
+        padding: 0px 0px;
+        font-size: 30px; 
+    }
+    .behind h4{
+        font-size: 18px;
+    }
+    .finance .mt-0 {
+            padding: 25px 86px;
+        }
+
+    .social-rating {
+        padding: 18px 14px;
+        gap: 14px;
+        width: 260px;
+        top: 221px;
+        left: 27px;
+    }
+    .social-rating h6 {
+        font-size: 14px;
+    }
+    .social-rating .d-flex span {
+        width: 40px;
+        height: 40px;
+        margin-right: 8px;
+    }
+    .visa-logo img[alt='vica-icon1'] {
+    width: 30px;
+    }
+    .visa-logo img[alt='vica-icon5'] {
+    width: 30px;
+    }
+    .visa-logo img {
+    width: 45px;
+    }
+    .visa-contant .col-lg-6 {
+    padding: 15px 15px;
+    }
+    .pricing-bg {
+        background-size: 100% 70%;
+    }
+    .pricing-bg img[alt='pric-img1'] {
+        width: 94%;
+        margin-bottom: 90px;
+    }
+    .profaessional p {
+    padding: 20px 10px;
+    } 
+    .tab-center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .news-p {
+        padding: 25px 70px;
+        color: #E4E4E4;
+    }
+   /* ====== about.html ====== */
+    .about-p {
+        padding: 10px 5px;
+    }
+    /* .abut-hero-img1{
+        padding-bottom: 79px;
+        margin-right: -52px;
+    } */
+    .abut-hero-img1 img{
+      width: 100%;
+    }
+    .abut-hero-img2 {
+        display: none;
+    }
+    .behind p {
+        padding: 12px 0px;
+    }
+    .b-padd {
+        padding-left: 10px;
+    }
+    /* .behind{
+        padding-top: 40px;
+    } */
+    .behind .b-para, .behind-about .b-para{
+        padding: 20px 140px;
+    }
+   /* ====== Feature.html ====== */
+    .feature-img2 img {
+        width: 80%;
+    }
+    .feature-img2 {
+        bottom: -24px;
+        right: -18px;
+    }
+    /* ======Pricing.html ====== */
+    .pri-padd{
+        padding: 60px 0px;
+    }
+    /* ======Contact.html ====== */
+    .help{
+        width: 100%;
+    }
+    .map {
+    top: 0px;
+    margin: 70px 0px;
+    }
+    .title-card{
+        padding: 0 10px;
+    }
+    h1.core-t {
+        font-size: 60px;
+        line-height: 1;
+    }
+    .core-p {
+        font-size: 18px;
+        line-height: 1.5;
+        padding: 10px 10px;
+    }
+    
+    .core figure img.big-can {
+        transform: scale(1);
+    }
+    a#user-account, a#product-cart, #user-account{
+        display: block;
+    }
+    .custom-shape-divider-bottom-1708075887{
+        top: 200px;
+    }
+    .banner-svg-shape {
+        top: 200px;
+    }
+    /* .character-product img {
+        display: none;
+    } */
+    .visa1 p.text-center{
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    .visa1 h2{
+        font-size: 45px;
+        margin-bottom: 0px;
+    }
+    .visa1 h3 {
+        font-size: 30px;
+    }
+    .title-card {
+        margin-top: -20px;
+    }
+    .card-img-1 img {
+        bottom: 55px;
+    }
+    .about-card .banner-text {
+        padding: 40px 10px 40px 10px;
+    }
+    .help-crd1 {
+        padding: 30px 25px 10px 25px;
+    }
+    .whats-core h1.core-t{
+        font-size: 88px;
+    }
+    .custom-shape-divider-top-1708341196 svg{
+        transform: scaleY(0.3);
+    }
+    div#user-account {
+        padding-right: 0px;
+    }
+    .core .bground, .whats-core .bground{
+        flex-direction: column;
+        align-items: center;
+    }
+    .profaessional {
+        padding-top: 110px;
+    }
+    section.product-bg-about {
+        margin-top: -310px; /* git issue #334 fixing */
+    }
+    .behind.b-back{
+        padding-top: 26%;
+    }
+    .b-back{
+        margin: 0px 0px 45% 0px;
+    }
+    .behind.news-cards {
+        padding-top: 40px;
+    }
+    a#user-account {
+        padding-right: 0px;
+    }
+} 
+
+@media screen and (max-width: 804px) {
+    .abut-hero-img1 {
+     padding-bottom: 24px;
+ }
+}
+
+@media screen and (max-width: 767.98px) {
+    /* 01 globle styleing */
+    h1 {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 51px;
+    }
+    h2 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 42px;
+    }
+    h3 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    h5 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+    h6 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .p-f-s{
+        font-size: 12px;
+    }
+    button {
+        font-size: 14px;
+        padding: 12px 26px;
+        line-height: 22px;
+    }
+    a {
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        line-height: 20px !important;
+        text-decoration: none !important;
+        transition: all 0.3s ease !important;
+    }
+    .btn-hover1{
+        padding: 14px 30px !important;
+    }
+    .btn-hover2{
+        padding: 14px 30px !important;
+    }
+    .card-viewer .btn-hover1, .card-viewer .btn-hover2 {
+        padding: 14px 18px !important; /* Git issue #162 fixing */
+    }
+    .container {
+        max-width: 757px;
+    }
+     /* ====== index.html ====== */
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .nav-logo{
+        width: 140px;
+        height: auto;
+    }
+    .nav-logo img{
+        width: 140px;
+        height: auto;
+    }
+    .container-fluid {
+        padding: 0px;
+    }
+    .hero .position-relative {
+        background-size: 114% 115%;
+        background-position: -3px -45px;
+      
+    }
+    .hero img[alt='hero_img1'] {
+        position: relative;
+        top: -22px;
+        left: -38px;
+    }
+    .hero img[alt='hero_img2'] {
+        width: 80px;
+    }
+    .hero {
+        margin: 0px 0;
+        padding-bottom: 0px;
+    }
+    .hero p {
+        color: #E4E4E4;
+        margin: 10px 16px 25px 0;
+    }
+    .ab_card1 .mt-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about {
+        margin: 70px 0px;
+    }
+    .ab_card1 {
+        padding: 30px 20px;
+    }
+    .ab_card2{
+        padding: 30px 20px;  
+    }
+    .fin-card {
+        /* padding: 30px 25px; */
+        padding: 0 0px;
+    }
+    .finance {
+        margin: 0px 0px 70px 0px;
+    }
+    .fin-card h4 {
+        padding: 10px 0px;
+    }
+    .finance h2 {
+        padding: 0px 0px;
+        margin-bottom: 0px;
+    }
+    .finance h3 {
+        padding: 0px 104px;
+    }
+    .finance .mt-1 {
+        padding: 30px 75px;
+    }
+    .finance .mt-0 {
+        padding: 18px 75px;
+    }
+    .fin-card figure img[alt='praph'] {
+        width: 40px;
+    }
+    .fin-card figure img[alt='doller'] {
+        width: 29px;
+    }
+    .fin-card figure img[alt='arow'] {
+        width: 40px;
+    }
+    .fin-card figure {
+        padding: 20px 10px;
+        width: 90px;
+        height: 80px;
+    } 
+    .gate-link {
+        margin-top: 30px;
+    }
+    .gateway{
+        margin: 60px 0px;
+    }
+    .sevices_img {
+        background-size: 128% 75%;
+        background-position-x: 2px;
+        background-position-y: 3px;
+    }
+.sevices_img img[alt='sevice_img2'] {
+    position: relative;
+    top: -74px;
+    width: 70%;
+    left: 79px;
+}
+.social-rating {
+    padding: 18px 14px;
+    gap: 14px;
+    width: 260px;
+    top: 221px;
+    left: 27px;
+}
+.social-rating h6 {
+    font-size: 14px;
+}
+.social-rating .d-flex span {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+.services {
+    margin: 70px 0px;
+}
+.visa-contant .col-lg-6 {
+    padding: 24px 20px;
+}
+.visa-logo img[alt='vica-icon1'] {
+    width: 32px;
+}
+.visa-logo img[alt='vica-icon5'] {
+    width: 32px;
+}
+.visa-logo img {
+    width: 45px;
+}
+.visa-contant {
+    padding: 30px 20px;
+    width: 95%;
+}
+.visa{
+    margin-bottom: 0px;
+}
+.pricing-bg img[alt='pric-img1'] {
+    width: 92%;
+    height: auto;
+    margin-bottom: 116px;
+}
+.pricing {
+    padding: 70px 0px;
+}
+.pricing h2 {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.profaessional p {
+    padding: 20px 15px;
+
+}
+.profaessional {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.prof-size {
+    /* width: 80%; */
+    /* Git issue #268 fixing */
+    width: 90%;
+}
+.question {
+    padding-top: 70px;
+}
+.accordion {
+    padding: 30px 15px;
+  
+}
+.accordion-body{
+    font-size: 12px !important;
+    padding: 0px 1.25rem !important;
+}
+.question p{
+    margin: 15px 0px;
+ }
+ .news-p {
+    padding: 23px 70px;
+}
+.news-cards {
+    margin-top: 70px;
+}
+.card-body {
+    padding: 1.3rem 0rem 0rem 0rem !important;
+}
+footer{
+    padding-top: 70px;
+}
+footer h3 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.privacy a {
+    padding: 5px 10px;
+}
+.privacy {
+    margin-left: 0px;
+    
+}
+.social-icon i {
+    font-size: 24px;
+    background-color: #e3ece700;
+    border-radius: 50%;
+    padding: 5px;
+}
+.foot-facebook {
+    padding: 6px 9px !important;
+}
+.footer-logo img {
+    width: 110px;
+}
+.qr-code {
+    width: 220px;
+    height: 40px;
+}
+footer ul li a {
+    padding: 5px 20px;
+}
+.footer-nav-icon .col-lg-4 {
+    text-align: center;
+    justify-content: center;
+}
+.social-icon a:first-child i{
+    padding: 9px 13px !important;
+}
+.social-icon a:nth-child(2) i{
+padding-left: 10px;  
+}
+.social-icon a:nth-child(3) i{
+padding-left: 11px;  
+}
+.footer-search {
+width: 70%;
+}
+ /* ====== about.html ====== */
+ .about-p {
+    padding: 10px 5px;
+}
+.abut-hero-img1 {
+    padding-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.abut-hero-img1 img{
+    width: 100%;
+  }
+  .banner-text {
+    width: 100%;
+    padding: 10px;
+}
+.about-banner{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.round-word {
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+ .behind.b-back {
+    padding-top: 63%;
+}
+.behind .b-para, .behind-about .b-para{
+    padding: 20px 80px;
+}
+.behind h2.b-para {
+    font-size: 24px;
+}
+/* .b-back{
+    margin: 70px 0px;
+} */
+/* ====== Feature.html ====== */
+.feature-img2 img {
+    width: 60%;
+}
+.feature-img2{
+    bottom: -33px;
+    right: -30px;
+}
+.feature-img2{
+    bottom: -18px;
+    right: -16px;
+}
+.core-card{
+    padding: 20px;
+}
+.core-card1 {
+    padding: 20px;
+}
+.core-p{
+    padding: 15px 100px;
+}
+/* ====== Pricing.html ====== */
+.pri-padd{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+/* ====== Contact.html ====== */
+.contact-hero p {
+    padding: 12px 100px 0px 100px;
+}
+.contact-email .col-md-5{
+    flex: 0 0 auto;
+    width: 43.666667%;
+}
+.contact-hero h2 {
+    padding-top: 50px;
+}
+.help-crd1 {
+    padding: 30px 25px 10px 25px;
+    max-width: 550px;
+    margin: 0 auto;
+}
+/* ====== Team.html ====== */
+.team-hero p {
+    padding: 15px 80px 0px 80px;
+}
+/* ====== Testimonials.html ====== */
+.testimon-hero h2 {
+    padding-top: 40px;
+}
+.testimon-hero p {
+    text-align: center;
+    padding: 10px 80px 20px 80px;
+    color: #fff;
+}
+/* ====== FAQ.html ====== */
+.ques-top-text p{
+    padding: 10px 100px 0px 100px;
+ }
+ .question-page{
+     padding: 0px 50px;
+ }
+ .question-page h4{
+     padding-top: 70px;
+     text-align: center;
+ }
+ .page-p{
+     text-align: center;
+     padding: 15px 0px;
+  }
+  .accordion1 {
+     padding: 35px 25px;
+     width: 87%;
+   }
+   .accordian-2nd .page-p{
+     margin-left: 0px;
+     text-align: center;
+     padding: 10px 40px;
+ }
+ .accordian-2nd h4{
+     margin-left: 1px;
+     margin-top: 40px !important;
+    text-align: center;
+ }
+ .accordian-2nd h6{
+    font-weight: 600;
+ }
+/* ====== 404.html ====== */
+ .hero404 p {
+    padding: 15px 100px;
+}
+/* ====== Coming.html ====== */
+.coming-hero p {
+    padding: 20px 100px 20px 0px;
+}
+.visa-contant .visa-card img{
+    transform: scale(1);
+    left: auto;
+    display: flex;
+    justify-content: center;
+}
+.core img.right-core-img, .whats-core img.right-core-img {
+    width: 70px;
+    top: -25px;
+    left: 10px;
+}
+.core-card1, .core-card {
+    min-width: 300px;
+    width: 100%;
+    max-width: 350px;
+}
+.core img.left-core-img, .whats-core img.left-core-img {
+    width: 70px;
+    top: -25px;
+    right: 10px;
+}
+.visa-contant .visa-card img{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.visa h1 {
+    font-size: 89px;
+    line-height: 1;
+    text-align: center;
+}
+.visa h1 {
+    font-size: 75px;
+    line-height: 1;
+    text-align: left;
+}
+.behind img {
+    width: 100%;
+    max-width: 430px;
+    height: auto;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.card-img-1 img {
+    position: relative;
+    bottom: 75px;
+    left: 0;
+}
+.outline-card-gr {
+    border-radius: 30px;
+    margin-top: 130px;
+}
+.outline-card-og {
+    border-radius: 30px;
+}
+.container-mask.split.skew.reset {
+    display: none;
+}
+section.hero{
+    display: block;
+}
+.custom-shape-divider-bottom-1708075887{
+    top: 165px;
+}
+.banner-svg-shape {
+    top: 165px;
+}
+.bread-crumb {
+    font-size: 14px;
+}
+.abut-hero-img1 {
+    display: flex;
+    justify-content: center;
+}
+.feature-hero p {
+    font-size: 18px;
+    line-height: 1.3;
+}
+.services p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+.profaessional p.sub-text {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.about-card .about-banner {
+    padding: 20px 10px;
+}
+.about-card .about-banner{
+    left: auto;
+}
+.behind-about{
+    padding-bottom: 100px;
+}
+section.product-bg-about{
+    /* margin-top: -435px; */
+    /* Git issue #334 fixing */
+    margin-top: -485px;
+}
+.visa1 .visa-bg-green {
+    padding: 0px 0px 0px 0px;
+}
+section.visa {
+    height: 650px;
+}
+.card-img-1{
+    max-height: 100%;
+    height: 100%;
+}
+.visa1 .visa-contant .visa-card img {
+    transform: scale(1);
+    left: 0px;
+}
+.mid-logo img {
+    border-radius: 0px;
+}
+.abut-hero-img1 img {
+    padding: 100px 0px 30px 0;
+}
+section.about-card .container {
+    position: unset;
+}
+section.about-card .about-banner{
+    position: unset;
+}
+.about-card .about-banner{
+    width: auto; 
+    border-radius: 20px;
+}
+section.about-card .character-product img {
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 21px;
+    right: 0;
+}
+.about-card .banner-text {
+    padding: 15px 10px 40px 10px;
+}
+section.product-bg-about{
+    /* padding-top: 400px; */
+    /* Git issue #334 fixing */
+    padding-top: 450px;
+    padding-bottom: 40px;
+}
+.rev-user-name h6 {
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+h1.core-t, .about-hero h1, .behind-about h1, .gateway h1, section.visa1 h1, .whats-core h1.core-t, .news-cards h1 {
+    font-size: 45px;
+}
+section.behind h1{
+    font-size: 60px; /*  https://github.com/Embrace-Drink/ecomm-without-backend/issues/419 */
+    font-weight: 700;
+    line-height: 1;
+}
+.behind h4{
+    line-height: 28px;
+}
+.visa-bg{
+    max-width: 100%;
+}
+.b-back{
+    margin: 0px 0px 360px 0px;
+}
+}
+
+@media screen and (max-width: 767.98px) {
+    /* ====== index.html ====== */
+    .hero img[alt='hero_img1'] {
+        width: 76%;
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+    .hero .position-relative {
+        background-size: 100% 112%;
+        background-position: 31px -25px;
+    }
+    .ab_card2 .col-2 {
+        display: none !important;
+    }
+    .about {
+        margin: 50px 0;
+    }
+    .fin-card {
+        width: 95%;
+    }
+    .gate figure{
+        margin-bottom: 15px;
+    }
+    .gateway{
+        margin: 50px 0px;
+    }
+    .sevices_img {
+        background-size: 100% 100%;
+        background-position-y: 3px;
+    }
+    .sevices_img img[alt='sevice_img2'] {
+        top: -6px;
+        width: 79%;
+        left: -36px;
+    }
+    .social-rating {
+        padding: 18px 14px;
+        gap: 14px;
+        width: 260px;
+        top: 300px;
+        left: 140px;
+    }
+    .shop-page section.visa{
+        margin-top: 0;
+    }
+    .visa {  
+        margin-top: 140px;
+    }
+    .visa-card img{
+    position: relative;
+    }
+    .visa-contant {
+        padding: 30px 60px; 
+    }
+    .pricing-bg {
+        background-size: 88% 117%;
+    }
+    .pricing-bg img[alt='pric-img1'] {
+        width: 95%;
+        height: auto;
+       display: block;
+       margin: auto;
+    }
+    .card-body p {
+        text-align: center;
+     }
+     .footer-nav-icon .col-md-4{
+        width: 100% !important;
+      padding: 6px 0px;
+    }
+    .footer-search {
+        margin-bottom: 50px;
+        flex-direction: column;
+        background: none;
+        gap: 20px;
+        width: 80%;
+    }
+    .footer-search input{
+        padding: 10px 20px;
+    }
+    .footer-search button{
+        width: 100%;
+    }
+    footer input:focus{
+        background-color: #fff;
+    }
+    /* ====== about.html ====== */
+    .round-word p {
+        padding: 20px 40px;
+    }
+    /* ====== Feature.html ====== */
+    .feature-hero {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .whats-feature{
+        margin-top: -280px;
+        padding-bottom: 200px !important;
+        padding-top: 290px;
+    }
+    .core .bground {
+        background-size: 111% 71%;
+        background-position-y: 299px;
+        padding: 50px 0px;
+    }
+    .core {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .core-card{
+        align-items: flex-start;
+        text-align: left;
+        padding-right: 86px;
+        padding-left: 30px;
+    }
+    .core-card1{
+        /* align-items: flex-end; */
+        align-items: flex-start;
+        text-align: left;
+        padding-right: 30px;
+        padding-left: 96px;
+    }
+    .core img.left-core-img, .whats-core img.left-core-img {
+        width: 90px;
+        top: -15px;
+    }
+    .core img.right-core-img, .whats-core img.right-core-img {
+        width: 90px;
+        top: -15px;
+    }
+    .core-card h5, .core-card1 h5 {
+        font-size: 18px;
+    }
+    .core-card p, .core-card1 p {
+        font-size: 13px;
+    }
+    .whats-core .core-card, .whats-core .core-card1 {
+        min-height: 150px;
+    }
+    /* ====== Pricing.html ====== */
+    .pricing-hero p {
+        padding: 15px 72px;
+    }
+     /* ====== Contact.html ====== */
+    .help .row{
+        padding: 0px 30px;
+    }
+    /* ====== Coming.html ====== */
+    .coming-hero p {
+        padding: 20px 100px 20px 0px;
+    }
+    .coming-hero h2 {
+        padding: 20px;
+    }
+    .coming-hero p {
+        padding: 15px 50px;
+    }
+    .footer-coming {
+        padding-top: 60px;
+    }
+    .whats-core h1.core-t{
+        font-size: 60px;
+    }
+    .whats-core p.core-p, .visa1 p.text-center{
+        font-size: 16px;
+    }
+    .whats-core p.core-p{
+        line-height: 2;
+    }
+    .visa1 h2{
+        text-align: center;
+        font-size: 35px;
+    }
+    .visa1 h3{
+        font-size: 33px;
+    }
+    section.visa1 .visa-contant{
+        width: 95%;
+        background-color: rgb(76 246 0);
+        z-index: 1;
+        top: -28px;
+    }
+    section.visa1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .whats-core{
+        margin-top: -140px;
+    }
+    .visa1 p.text-center{
+        margin-bottom: 10px;
+        line-height: 2;
+    }
+    .visa-card {
+        text-align: center;
+    }
+    .about-hero .services .row {
+        flex-direction: column-reverse;
+    }
+    .behind-about .ps-4 {
+        padding-left: 0px !important;
+    }
+    figure.inside-pro-img img {
+        background-position-y: -5px;
+        background-position-x: 0px;
+    }
+    .shop-cart-widget form ul li {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .cart-total .shop-cart-widget form ul li > span {
+        width: 50% !important;
+    }
+    .custom-shape-divider-bottom-1708075887 svg, .banner-svg-shape svg{
+        transform: scaleY(0.3);
+    }
+    .custom-shape-divider-bottom-1708075887{
+        bottom: -2px;
+    }
+    .feature-hero p{
+        padding: 10px 0px 30px 2px;
+    }
+    .privacy-policy-content .side-bar{
+        border-right-width: 0px !important;
+        border-bottom-width: 2px;
+        margin: 10px 30px;
+    }
+    .profaessional{
+        padding-top: 50px;
+    }
+    .about-hero h2 {
+        font-size: 36px;
+    }
+    .contact-page {
+        padding-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+section.visa {
+    height: 570px;
+}
+.visa h1 {
+    font-size: 60px;
+}
+.about-hero-banner h1{
+    padding: 260px 15px 0px 15px;
+}
+h1.core-t {
+    font-size: 40px;
+    line-height: 1;
+}
+section.behind h1 {
+    font-size: 55px;
+}
+.serives-btn a.btn-hover1 {
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 480px) {
+     /* 01 globle styleing */
+    h1 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 46px;
+    }
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38px;
+    }
+    h3 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    h4 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    h5 {
+        font-size: 16px;
+        font-weight: 450;
+        line-height: 22px;
+    }
+    h6 {
+        font-size: 14px;
+        font-weight: 450;
+        line-height: 20px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    a {
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        line-height: 20px !important;
+        text-decoration: none !important;
+        transition: all 0.3s ease !important;
+    }
+    .p-f-s{
+        font-size: 12px;
+    }
+    
+    button {
+        padding: 8px 20px;
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .btn-hover1{
+        padding: 12px 26px !important;
+    }
+    .card-viewer .btn-hover1, .card-viewer .btn-hover2 {
+        padding: 14px 18px !important; /* Git issue #162 fixing */
+    }
+    /* ====== index.html ====== */
+    .sidenav{
+        padding-top: 15px;
+    }
+    .sidenav a{
+        font-size: 18px !important;
+    }
+    .hero {
+        margin: 0px 0;
+    }
+    .hero img[alt='hero_img2'] {
+        width: 70px;  
+        left: 20px;   
+    }
+    .hero p {
+        color: #E4E4E4;
+        margin: 10px 5px 24px 5px;
+        line-height: 1.3;
+    }
+    .ab_card1 .gap-3{
+        flex-direction: row;
+    }
+    .finance {
+        margin: 0px 0px;
+    }
+    .finance h3 {
+        padding: 0px 40px;
+    }
+    .finance .mt-1 {
+        color: white;
+        padding: 15px 30px;
+    }
+    .finance .mt-0 {
+        padding: 0px 18px 18px 18px;
+    }
+    .ispsum-logo img{
+        width: 120px !important;
+    }
+    .gateway {
+        margin: 0px 0px;
+    }
+    .gateway p {
+       padding: 0px 30px;
+    }
+    .serives-btn a{
+        padding: 12px 18px
+    }
+    .sevices_img img[alt='sevice_img2'] {
+        top: -1px;
+        width: 58%;
+        left: 34px;
+    }
+    .social-rating {
+        padding: 18px 14px;
+        gap: 14px;
+        width: 260px;
+        top: 232px;
+        left: 100px;
+    }
+    .services{
+        margin: 40px 0px;
+    }
+    .serives-btn {
+        margin-left: 0px;
+    }
+    .services .gap-2{
+        flex-direction: column;
+    }
+    .visa-contant .col-lg-6 {
+        padding: 20px 0px;
+    }
+    .visa-logo img {
+        width: 45px;
+    }
+    .visa-logo img[alt='vica-icon1']{
+        width: 35px;  
+     }
+     .visa-contant {
+        padding: 20px 25px;
+        top: -60px;
+    }
+    .shop-page section.visa{
+        margin-top: 0;
+    }
+    .visa {  
+        margin-top: 100px;
+    }
+    .pric-list {
+        padding: 35px 35px; 
+    }
+    .pricing h6 {
+         width: 120px;
+        left: -35px;
+    }
+    .pricing {
+        padding: 50px 0px;
+    }
+    .pricing-bg img[alt='pric-img1'] {
+        width: 75%;    
+    }
+    .prof-slide {
+        padding: 2px 20px; 
+    }
+    .prof-img-1 {
+        position: relative;
+        width: 40px;
+        left: 88%;
+        top: 4px;
+    }
+    .prof-img-2 { 
+      width: 70px;
+    }
+    .profaessional {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    .profaessional p {
+        font-size: 12px;
+        padding: 15px 5px;
+    }
+    .accordion-item{
+        padding: 0px 5px;
+    }
+    .accordion-button{
+        font-size: 16px !important;  
+    }
+    .accordion-body {
+        font-size: 13px !important;
+    }
+    .question {
+        padding: 60px 0px;
+    }
+    .question p{
+        margin: 15px 0px;
+     }
+     .question a{
+        margin-top: 0px;
+     }
+     .question  .mt-md-3{
+        padding: 15px 10px;
+     }
+     .news-cards {
+        margin: 40px 0px 0px 0px;
+    }
+    .news-p {
+        padding: 20px 10px;
+    }
+    .card-body p {
+        text-align: start;
+     }
+     .news-cards .row .col-md-4{
+        padding: 2px 10px;
+     }
+     footer ul li a {
+        padding: 5px 10px;
+    }
+ 
+    .footer-search button {
+        padding: 12px 14px;
+    }
+    footer{
+        padding-top: 50px;
+    }
+    .footer-search {
+        width: 90%;
+    }
+    .footer-nav-icon .col-md-4 {
+        padding: 10px 0px;
+    }
+    footer .dir{
+        flex-direction: column;
+        gap: 5px;
+    }
+     /* ===form Submit massage=== */
+     #Succes-box {
+        width: 71%;
+        padding: 75px 17px;
+        top: 24%;
+    }
+    #Succes-box2 {
+        width: 71%;
+        padding: 75px 17px;
+        top: 24%;
+    }
+    /* ====== About.html ====== */
+    .abut-hero-img1 {
+        padding-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .abut-hero-img1 img{
+    width: 100%;
+    }
+     .about-hero h1 {
+    padding-top: 0px;
+    }
+    .banner-text {
+        width: 100%;
+        padding: 10px;
+    }
+    .about-banner{
+        margin: 50px auto;
+    }
+    .round-word p {
+        padding: 20px 15px;
+    }
+    .round-word {
+        margin: 50px 0px;
+    }
+    /* .behind{
+        padding-top: 30px;
+    } */
+     .behind p {
+    padding: 12px 0px;
+    }
+    .behind .d-flex:first-child {
+        flex-direction: column;
+    }
+    .behind .d-flex:last-child {
+        flex-direction: column-reverse;
+    }
+    .behind .ps-4{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    }
+    .behind .b-para, .behind-about .b-para{
+    padding: 10px 20px;
+    }
+    /* .b-back{
+    margin: 50px 0px;
+    } */
+    /* ====== Feature.html ====== */
+    .feature-img2 img {
+        width: 40%;
+    }
+    .feature-img2{
+        bottom: -23px;
+        right: -12px;
+    }
+    /* .feature-hero {
+        padding: 50px 0px;
+    } */
+    .whats-feature .about-hero h1{
+        padding-top: 0;
+    }
+    .core .bground {
+        background-size: 123% 68%;
+        background-position-y: 342px;
+        padding: 30px 0px;
+    }
+    .core-p{
+        padding: 10px 20px;
+    }
+    .core-p{
+        padding: 15px 20px;
+    }
+    .core {
+        margin-top: 0px;
+    }
+     /* ====== Pricing.html ====== */
+    .pricing-hero p {
+        padding: 10px 10px;
+    }
+     /* ====== Contact.html ====== */
+    .help .row{
+        padding: 0px 10px;
+    }
+    .contact-hero p {
+        padding: 8px 20px 0px 20px;
+    }
+    .contact-hero h2 {
+        padding-top: 30px;
+    }
+    .map {
+        top: 0px;
+        margin: 50px 0px;
+    }
+     /* ====== Team.html ====== */
+    .team-hero p {
+        padding: 10px 10px 0px 10px;
+    }
+    .b-padd{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .team-hero h2{
+        margin-top: 40px;
+    }
+    /* ====== Testimonials.html ====== */
+    .testimon-hero p {
+        padding: 5px 20px 10px 20px;
+    }
+    /* ====== FAQ.html ====== */
+    .ques-top-text p{
+        padding: 10px 20px 0px 20px;
+     }
+     .question-page{
+         padding: 0px 10px;
+     }
+     .question-page h4{
+         padding-top: 50px;
+         text-align: center;
+     }
+     .page-p{
+        text-align: center;
+     }
+     .ques-top-text h2{
+         padding-top: 50px;
+     }
+     .accordion1 {
+         width: 94%;
+       }
+       .accordian-2nd .page-p{
+         padding: 10px 10px;
+     }
+     /* ====== Blogs.html ====== */
+     .news-h2{
+        padding-top: 50px;
+    }
+     /* ====== 404.html ====== */
+    .hero404 p {
+        padding: 15px 20px;
+    }
+    .hero404 {
+        padding-top: 65px;
+    }
+    /* ====== Coming.html ====== */
+    .coming-hero p {
+        padding: 10px 20px;
+    }
+    .coming-hero h2 {
+        padding: 12px;
+    }
+    .coming-hero {
+        padding-top: 40px;
+    }
+    .visa h1 {
+        font-size: 60px;
+        line-height: 1;
+        text-align: left;
+    }
+    .mid-logo {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    /* .card-viewer {
+        gap: 15px;
+    } */
+    section.visa {
+        height: 515px;
+    }
+    .visa-contant .visa-card img {
+        top: -20px;
+    }
+    .visa-card {
+        height: 190px;
+    }
+    section.visa1{
+        padding-bottom: 140px;  
+    }
+    .visa1 .visa-contant .visa-card img {
+        top: -10px;
+    }
+    h1.core-t, .about-hero h1, .behind-about h1, .gateway h1, section.visa1 h1, .whats-core h1.core-t, .news-cards h1 {
+        font-size: 40px;
+    }
+    section.behind h1{
+        font-size: 55px;
+    }
+    .help-crd1 p{
+        line-height: 28px;
+    }
+    .help-crd1 .gap-4{
+        margin-bottom: 0px;
+    }
+    .prof-size span.slick-arrow-prev.slick-arrow {
+        width: 45px;
+        height: 45px;
+        left: -23px;
+    }
+    .prof-size span.slick-arrow-next.slick-arrow {      
+        width: 45px;
+        height: 45px;
+        right: -23px;
+    }
+    span.slick-arrow-next.slick-arrow, span.slick-arrow-prev.slick-arrow{
+        font-size: 23px;
+    }
+
+    .max-btn{
+        width: 100%;
+    }
+    .b-back{
+        margin: 0px 0px 70% 0px;
+    }
+    .behind.b-back {
+        padding-top: 75%;
+    }
+    label.pack-label {
+        left: 35px;
+        top: 65px;
+    }
+    .about-hero h2 {
+        font-size: 28px;
+    }
+    .shop-inner-page .related-products{
+        padding-top: 0;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .card-viewer {
+        display: flex;
+        /* flex-direction: column;
+        gap: 15px; */
+        flex-direction: row; /* Git issue #162 fixing */
+        padding-top: 15px;
+    }
+    .contact-email .col-md-5 {
+        font-size: x-small;
+    }
+    .order-search input{
+        font-size: 11px;
+    }
+    .visa-contant .visa-card img {
+        top: 0px;
+    }
+    .visa-card {
+        height: 170px;
+    }  
+    label.pack-label {
+        left: 10px;
+        top: 65px;
+    } 
+}
+@media screen and (max-width: 360px) {
+     /* ====== index.html ====== */
+    .nav-logo img{
+        width: 120px;
+        height: auto;
+    }
+    .navbar-toggle i {
+        font-size: 16px;
+    }
+    .sidenav a {
+        padding: 20px 12px 0px 28px
+    }
+    .hero{
+        padding-bottom: 0px;
+    }
+    .finance h2 {
+        padding: 0px 0px;
+    }
+    .finance .mt-0 {
+        padding: 0px 18px 18px 18px;
+    }
+    .gateway p {
+        padding: 0px 10px;
+    }
+    .gate-link {
+        margin-top: 20px;
+    }
+    .social-rating {
+        padding: 18px 14px;
+        gap: 14px;
+        width: 260px;
+        top: 198px;
+        left: 41px;
+    }
+    .services {
+     padding-bottom: 80px;
+    }
+    .services .pb-4{
+     padding: 0px 10px;
+    }
+    .visa-contant .col-lg-6 {
+        padding: 5px 10px;
+    }
+    .visa {  
+        margin-top: 120px;
+    }
+    .pric-list {
+        padding: 15px 10px;
+    }
+    .pricing h6 {
+        width: 110px;
+        left: -10px;
+        top: 10px;
+    }
+    .prof-slide {
+        padding: 2px 20px;
+    }
+    .accordion-button{
+        padding: 0.5rem 1.25rem;
+    }
+    .news-p {
+        padding: 10px 10px;
+    }
+    .card-body {
+        padding: 0.3rem 0rem 0rem 0rem !important;
+    }
+    .news-cards .row .col-md-4 {
+        padding: 2px 10px;
+    }
+
+    .abut-hero-img1 {
+        padding-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+     /* ====== About.html ====== */
+    .abut-hero-img1 img{
+    width: 100%;
+    }
+    .about-hero h1 {
+    padding-top: 0px;
+    }
+    /* ====== Feature.html ====== */
+    .feature-img2 img {
+        width: 35%;
+    }
+    .feature-img2{
+        bottom: -18px;
+        right: -10px;
+    }
+    .core {
+        margin-top: 0px;
+    }
+     /* ===form Submit massage=== */
+     #Succes-box {
+        width: 85%;
+        padding: 62px 17px;
+    }
+    #Succes-box2 {
+        width: 85%;
+        padding: 62px 17px;
+    }
+    .news-card-back .card-body h3 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    .product-ingredient img {
+        width: 100px;
+    }
+    section.visa {
+        height: 515px;
+    }
+    span.slick-arrow-prev.slick-arrow{
+        left: 10px;
+    }
+    span.slick-arrow-next.slick-arrow{
+        right: 10px;
+    }
+    .about-card .about-banner{
+        margin: 0px 5px;
+    }
+    .behind {
+        padding-top: 40%;
+    }
+    .behind.b-back {
+        padding-top: 55%;
+    }
+    label.pack-label {
+        left: 0px;
+        top: 50px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* Begin:: Popup forms */
+    /* Begin:: Email popup */
+    .PopupFormCustomCss .modal-content{
+        padding: 0 15px;
+    }
+    .PopupFormCustomCss .close {
+        top: -4px;
+        right: 13px;
+        padding: 15px;
+    }
+    /* END:: Email popup */
+}
+
+@media only screen and (max-width: 600px) {
+    .PopupFormCustomCss {
+        width: 100% !important;
+        margin: 2rem auto !important;
+        padding: 20px 0;
+        margin: 0 auto;
+        left: auto;
+        right: auto;
+    }
+    
+    
+}
+
+@media (max-width: 575.98px) {
+    /* .PopupFormCustomCss .modal-dialog {
+        width: 82% !important;
+    } */
+    .custom-class .component-host-scrollable{
+        margin: 0;
+    }
+    /* .contact-footer .custom-shape-divider-top-1708341196 {
+        display: none;
+    } */
+    .contact-footer h4{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .mobile-menu.active .sidenav {
+        width: 250px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .mobile-menu.active .sidenav {
+        width: 235px !important;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .mobile-menu.active .sidenav {
+        width: 220px !important;
+    }
+    #backToTopBtn {
+        right: 15px !important;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .mobile-menu.active .sidenav {
+        width: 280px !important;
+    }
+}
+
+@media (min-height: 1400px) {
+    /* Git issue #301 fixing */
+    .bread-crumb {
+        padding-bottom: 150px;
+    }
+}
+/* Begin:: For iOS Devices only */
+@supports (-webkit-touch-callout: none) {
+    /* Git issue #271 fixing */
+    .slick-list.draggable {
+        padding-top: 38px;
+        margin-top: -38px;
+    }
+    .addtocart-title > span {
+        display: none;
+    }
+    .addtocart-title::before {
+        content: "";
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' width='75' height='75'%3E%3Cpath d='M0 0 C0.95261719 -0.00515625 1.90523438 -0.0103125 2.88671875 -0.015625 C5.3125 0.25 5.3125 0.25 7.3125 2.25 C7.04764947 6.6692202 5.09596832 9.26999923 2.5 12.75 C-1.80735862 18.69817212 -5.50402307 24.92686196 -9.125 31.3125 C-9.64489502 32.22902344 -10.16479004 33.14554688 -10.70043945 34.08984375 C-12.77637621 37.77493049 -14.82219918 41.45299258 -16.6875 45.25 C-17.3475 45.25 -18.0075 45.25 -18.6875 45.25 C-18.92597656 46.00796875 -19.16445313 46.7659375 -19.41015625 47.546875 C-21.15278465 52.59889861 -23.1277713 57.54403348 -25.125 62.5 C-25.71764648 64.00820312 -25.71764648 64.00820312 -26.32226562 65.546875 C-26.70962891 66.5059375 -27.09699219 67.465 -27.49609375 68.453125 C-28.01901001 69.76265137 -28.01901001 69.76265137 -28.55249023 71.09863281 C-29.6875 73.25 -29.6875 73.25 -32.6875 75.25 C-38.30286723 75.95377294 -43.79837786 76.49601673 -48.625 73.3125 C-49.73067665 71.6707377 -50.83355444 70.02697718 -51.91796875 68.37109375 C-52.37816406 67.67113281 -52.83835937 66.97117187 -53.3125 66.25 C-53.80105469 65.48042969 -54.28960937 64.71085937 -54.79296875 63.91796875 C-56.30272965 61.79185185 -57.81685866 59.92129842 -59.55078125 57.98828125 C-60.05593262 57.42173828 -60.56108398 56.85519531 -61.08154297 56.27148438 C-62.09570697 55.14855681 -63.1244315 54.03857882 -64.16845703 52.94335938 C-66.67101756 50.16139927 -67.69127348 48.77765794 -67.6640625 44.97265625 C-66.6875 42.25 -66.6875 42.25 -64.125 40.375 C-59.81769137 38.96533536 -57.21170412 38.74731065 -52.6875 39.25 C-47.80608294 42.10741487 -44.30532028 46.95449004 -40.6875 51.25 C-37.84763958 48.41013958 -36.72850458 44.89607929 -35.1875 41.25 C-32.26498305 34.52057401 -29.10202407 27.98967233 -25.5625 21.5625 C-24.96985352 20.46905273 -24.96985352 20.46905273 -24.36523438 19.35351562 C-21.63430691 14.48103713 -18.45673329 10.36263862 -14.6875 6.25 C-14.006875 5.486875 -13.32625 4.72375 -12.625 3.9375 C-8.80776654 0.6128128 -4.95842367 -0.02705825 0 0 Z ' fill='%234cf600' transform='translate(67.6875,-0.25)'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        position: relative;
+        left: 0;
+        top: 3px;
+        width: 16px;
+        height: 16px;
+    }
+    @media (max-device-width: 991.98px) {
+        .contact-page .help .gap-3 {
+            gap: 0 !important;
+        }
+        .contact-page .help .help-crd1 {
+            margin-bottom: 1rem;
+        }
+    }
+    @media (max-device-width: 767.98px) {
+        .col-lg-4.gap-3.align-items-center, .card-viewer, 
+        .contact-page .help .gap-3 {
+            gap: 0 !important;
+        }
+        .pro-ani {
+            padding-bottom: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .card-viewer .btn-hover2 {
+            margin-bottom: 1rem;
+        }
+        .abut-hero-img1 {
+            display: block;
+        }
+        .contact-page .help .help-crd1 {
+            margin-top: 1rem;
+        }
+    }
+    @media (max-device-width: 480px) {
+        .shop-page .card-viewer .btn-hover1, 
+        .shop-page .related-products .card-viewer .btn-hover2 {
+            margin-bottom: 1rem;
+        }
+        .shop-page .card-viewer .btn-hover2, 
+        .shop-page .related-products .card-viewer .btn-hover1 {
+            margin-bottom: 0;
+        }
+    }
+}
+/* // END:: For iOS Devices only // */

@@ -1,0 +1,33 @@
+.footer-search button:hover {
+    background-color: #072A36;
+}
+
+.footer-menu .footer-links {
+    margin-top: 10px;
+}
+
+.footer-menu .footer-links li a {
+    display: block;
+    padding: 10px 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color .15s ease-in-out;
+}
+
+.footer-menu .footer-links li {
+    margin: 0px;
+}
+
+.footer-menu .footer-links li a.active, 
+footer .Copyright a.active,
+.footer-menu .footer-links li a:hover, 
+footer .Copyright a:hover {
+    color: #ea00ff;
+}
+
+/* Git issue #313 fixing */
+footer .footer-menu .menu > h3 {
+    text-transform: uppercase;
+}

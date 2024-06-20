@@ -1,0 +1,73 @@
+{
+  "id": "trend_section",
+  "type": "SharedSlice",
+  "name": "TrendSection",
+  "description": "TrendSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "preview_background_mage": {
+          "type": "Link",
+          "config": {
+            "label": "Preview Background Image",
+            "placeholder": "",
+            "select": "media"
+          }
+        },
+        "trend_lottie_json": {
+          "type": "Link",
+          "config": {
+            "label": "Trend Lottie Json",
+            "placeholder": "",
+            "select": "media"
+          }
+        },
+        "first_title": {
+          "type": "Text",
+          "config": {
+            "label": "First Title",
+            "placeholder": ""
+          }
+        },
+        "banner_image": {
+          "type": "Image",
+          "config": {
+            "label": "Banner Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "btn_text": {
+          "type": "Text",
+          "config": {
+            "label": "Btn Text",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "paragraph": {
+          "type": "Text",
+          "config": {
+            "label": "Paragraph",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

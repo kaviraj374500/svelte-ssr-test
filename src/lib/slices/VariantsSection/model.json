@@ -1,0 +1,127 @@
+{
+  "id": "variants_section",
+  "type": "SharedSlice",
+  "name": "VariantsSection",
+  "description": "VariantsSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "background_image": {
+          "type": "Image",
+          "config": {
+            "label": "Background Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "preview_background_image": {
+          "type": "Link",
+          "config": {
+            "label": "Preview Background Image",
+            "placeholder": "",
+            "select": "media"
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "paragraph": {
+          "type": "Text",
+          "config": {
+            "label": "Paragraph",
+            "placeholder": ""
+          }
+        },
+        "lottie_loader": {
+          "type": "Image",
+          "config": {
+            "label": "Lottie Loader",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "mobile_lottie_json": {
+          "type": "Link",
+          "config": {
+            "label": "Mobile Lottie Json",
+            "placeholder": "",
+            "select": "media"
+          }
+        },
+        "image_background": {
+          "type": "Image",
+          "config": {
+            "label": "Image Background",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "variants_section_list": {
+          "type": "Group",
+          "config": {
+            "label": "Variants Section List",
+            "repeat": true,
+            "fields": {
+              "product_title": {
+                "type": "Text",
+                "config": {
+                  "label": "Product Title",
+                  "placeholder": ""
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "description": {
+                "type": "Text",
+                "config": {
+                  "label": "Description",
+                  "placeholder": ""
+                }
+              },
+              "lottie_json": {
+                "type": "Link",
+                "config": {
+                  "label": "Lottie Json",
+                  "placeholder": "",
+                  "select": "media"
+                }
+              },
+              "mobile_lottie_json": {
+                "type": "Link",
+                "config": {
+                  "label": "Mobile Lottie Json",
+                  "placeholder": "",
+                  "select": "media"
+                }
+              },
+              "position": {
+                "type": "Text",
+                "config": {
+                  "label": "Position",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

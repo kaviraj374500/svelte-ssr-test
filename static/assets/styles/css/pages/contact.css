@@ -1,0 +1,101 @@
+.custom-shape-divider-bottom-1708075887 {
+    position: absolute;
+    top: 215px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1708075887 svg {
+    position: relative;
+    display: block;
+    width: calc(270% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-bottom-1708075887 .shape-fill {
+    fill: #072436;
+}
+/* .feature-hero h1 {
+    -webkit-text-fill-color: unset;
+    color: #FFF;
+} */
+.feature-hero p{
+    font-size: 22px;
+}
+.contact-page {
+    background-color: #072436;
+    padding-top: 60px; /* https://github.com/Embrace-Drink/ecomm-without-backend/issues/418 */
+}
+.contact-heading p {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    line-height: 1.3;
+}
+.help-crd1 h4 {
+    color: #000 !important;
+}
+.help-crd1 p{
+    color: #000 !important;
+    font-weight: 400;
+}
+.contact-footer p {
+    /* Git issue #328 fixing */
+    /* margin-top: 25px;
+    margin-bottom: 45px; */
+    font-size: 24px;
+    line-height: 1.3;
+}
+.contact-footer h4 {
+    /* margin-top: 100px; */ /* Git issue #328 fixing */
+    margin-top: 60px;
+    color: #4605cf;
+    font-size: 45px;
+    line-height: 1;
+}
+.contact-footer {
+    /* background: url('/assets/images/home/sky-bg.jpg'); */
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    padding-top: 40px;
+    /* padding-bottom: 40px; */ /* Git issue #328 fixing */
+    margin-top: 60px;
+    overflow: hidden;
+}
+.contact-footer .subscribe {
+    z-index: 1;
+    position: relative;
+}
+.custom-shape-divider-top-1708341196 {
+    position: absolute;
+    top: -214px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1708341196 svg {
+    position: relative;
+    display: block;
+    width: calc(280% + 1.3px);
+    height: 500px;
+    transform: scaleY(0.5); /* Git issue #328 fixing */
+}
+
+.custom-shape-divider-top-1708341196 .shape-fill {
+    fill: #072436;
+}
+.text-phone {
+    color: #212529;
+    font-weight: 400;
+}
+.text-phone:hover {
+    color: #212529;
+    font-weight: 400;
+}

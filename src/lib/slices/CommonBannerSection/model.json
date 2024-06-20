@@ -1,0 +1,64 @@
+{
+  "id": "common_banner_section",
+  "type": "SharedSlice",
+  "name": "CommonBannerSection",
+  "description": "CommonBannerSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "svg_animation_text": {
+          "type": "Text",
+          "config": {
+            "label": "Svg Animation Text",
+            "placeholder": ""
+          }
+        },
+        "background_image": {
+          "type": "Image",
+          "config": {
+            "label": "Background Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "common_banner_section_list": {
+          "type": "Group",
+          "config": {
+            "label": "Common Banner Section List",
+            "repeat": true,
+            "fields": {
+              "breadcrumb_name": {
+                "type": "Text",
+                "config": {
+                  "label": "Breadcrumb Name",
+                  "placeholder": ""
+                }
+              },
+              "breadcrumb_uid": {
+                "type": "Text",
+                "config": {
+                  "label": "Breadcrumb Uid",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "format": "custom",
+  "id": "shop",
+  "label": "Shop",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {},
+    "Banner Section": {
+      "slices1": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "shop_banner_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Feature Section": {
+      "slices2": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "shop_feature_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Shop Product Section": {
+      "slices3": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "shop_product_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

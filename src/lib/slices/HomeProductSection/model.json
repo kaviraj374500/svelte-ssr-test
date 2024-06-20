@@ -1,0 +1,34 @@
+{
+  "id": "home_product_section",
+  "type": "SharedSlice",
+  "name": "HomeProductSection",
+  "description": "HomeProductSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "preview_background_image": {
+          "type": "Link",
+          "config": {
+            "label": "Preview Background Image",
+            "placeholder": "",
+            "select": "media"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

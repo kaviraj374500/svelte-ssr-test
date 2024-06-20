@@ -1,0 +1,26 @@
+.banner-svg-shape {
+    position: absolute;
+    top: 215px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.banner-svg-shape svg {
+    position: relative;
+    display: block;
+    width: calc(270% + 1.3px);
+    height: 500px;
+}
+
+.banner-svg-shape .shape-fill {
+    fill: #072436;
+}
+.w-70{
+    width: 70% !important;
+}
+.w-30{
+    width: 30% !important;
+}

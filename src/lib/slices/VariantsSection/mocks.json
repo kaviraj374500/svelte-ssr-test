@@ -1,0 +1,289 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Drink Embrace Today!"
+			},
+			"paragraph": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Embrace, the first ever hangover cocktail mixer & day after recovery combination. Drink, party, hydrate, recover and EMBRACE life!!"
+			},
+			"lottie_loader": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+					"width": 5848,
+					"height": 3899
+				},
+				"url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+				"width": 5848,
+				"height": 3899,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"mobile_lottie_json": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"id": "mock_Media_link",
+					"kind": "image/jpeg",
+					"name": "mock_name",
+					"url": "https://source.unsplash.com/daily",
+					"size": "0",
+					"__TYPE__": "FileLink"
+				}
+			},
+			"image_background": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9",
+					"width": 4752,
+					"height": 3168
+				},
+				"url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9",
+				"width": 4752,
+				"height": 3168,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"variants_section_list": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"product_title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "WATERMELON"
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "A refreshing burst of sweet watermelon, designed to add a splash of summer to your favorite cocktails"
+								}
+							],
+							[
+								"position",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "left"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"product_title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "LEMON-LIME"
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Zesty and invigorating, the classic lemon-lime flavor sharpens your spirits with a citrusy kick"
+								}
+							],
+							[
+								"position",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "left"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"position",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "left"
+								}
+							],
+							[
+								"product_title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "PINEAPPLE"
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Tropical and tangy, this pineapple mixer brings a bright, fruity twist to elevate your drink"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "A rejuvenating blend of berry flavors that offers a sweet, antioxidant-rich start to your day"
+								}
+							],
+							[
+								"product_title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "BERRIES Blend"
+								}
+							],
+							[
+								"position",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "right"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"position",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "right"
+								}
+							],
+							[
+								"product_title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "CITRUS Blend"
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Crisp and clean, this citrus concoction awakens your senses with a refreshing zest"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"position",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "right"
+								}
+							],
+							[
+								"product_title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "TROPICAL Blend"
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Dive into an exotic mix of tropical fruits, a smooth, hydrating escape to refresh and revitalize"
+								}
+							]
+						]
+					}
+				]
+			},
+			"background_image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+					"width": 3168,
+					"height": 4752
+				},
+				"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+				"width": 3168,
+				"height": 4752,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"preview_background_image": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"id": "mock_Media_link",
+					"kind": "image/jpeg",
+					"name": "mock_name",
+					"url": "https://source.unsplash.com/daily",
+					"size": "0",
+					"__TYPE__": "FileLink"
+				}
+			}
+		},
+		"items": []
+	}
+]

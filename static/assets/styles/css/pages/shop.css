@@ -1,0 +1,463 @@
+.shop-page, .shop-inner-page {
+    background-color: #072436;
+}
+.shop-page .bread-crumb, .shop-inner-page .bread-crumb {
+    position: relative;
+    z-index: 1;
+} 
+.shop-page .bread-crumb .about-p:last-child:hover, 
+.shop-inner-page .bread-crumb .about-p:last-child:hover {
+    color: #ffffff;
+}
+.shop-page .gateway {
+    margin: 0;
+    padding: 60px 0;
+}
+.shop-page section.visa {
+    height: 530px;
+}
+.shop-page .core {
+    background-image: none;
+}
+.shop-page .visa img {
+    border-radius: 25px;
+}
+
+.products .news-card-back {
+    margin-bottom: 3rem;
+}
+.tab-section .nav-pills .nav-link {
+    border-top: 2px solid #4cf600;
+    border-bottom: 2px solid #4cf600;
+    border-radius: 0;
+}
+.tab-section .nav-pills > li:first-of-type .nav-link {
+    border-left: 2px solid #4cf600;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.tab-section .nav-pills > li:last-of-type .nav-link {
+    border-right: 2px solid #4cf600;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tab-section .nav-pills .nav-link.active {
+    background-color: #4cf600;
+    color: #000000 !important;
+}
+.tab-section .nav-pills .nav-link:hover, 
+.tab-section .nav-pills .nav-link:focus, 
+.tab-section .nav-pills .nav-link:focus-visible {
+    color: #c4c4c4;
+    outline: none;
+} 
+.products img {
+    width: 100%;
+    height: auto;
+    max-height: 392px;
+    margin: 0 auto;
+    object-fit: scale-down;
+}
+.products .news-card-back img:hover {
+    transform: scale(1.05) rotate(14.5deg);
+}
+.products label.pack-label {
+    left: 55px;
+    top: 55px;
+}
+.products .card-body p {
+    padding: 0;
+}
+.products .news-card-back > .position-relative {
+    /* background: url('../../../assets/images/shop/product-bg-overlay.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Begin:: Shop inner CSS */
+.product-img-preview .img-preview {
+    flex: 1 0 0%;
+}
+.product-img-preview .img-preview .nav-products, .product-img-preview .img-preview .main-product {
+    flex: 1 1 auto;
+}
+.w-25.img-preview {
+    flex-basis: 25%;
+}
+.w-75.img-preview {
+    flex-basis: 75%;
+}
+.product-img-preview .nav-products img {
+    background-color: rgba(78, 160, 5, 0.5);
+    border: 1px solid #4ff605;
+    border-radius: 25px;
+    padding:  0.75rem 2rem;
+    max-width: 100%;
+    height: 146px;
+    width: 146px;
+    object-fit: scale-down;
+    margin-bottom: 16px;
+}
+.product-img-preview .nav-products img.active {
+    background-color: transparent;
+}
+
+/* Begin: Custom Stacked radion pills CSS */
+.stacked-radio-pills input[type=radio] {
+    opacity: 0;
+    width: 100%;
+    height: 32px;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.stacked-radio-pills {
+    width: 100%;
+    display: flex;
+}
+.stacked-radio-pills .input-container {
+    height: 32px;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+}
+.stacked-radio-pills .input-container:first-child label {
+    border-radius: 25px 0 0 25px;
+    border-left-width: 2px;
+}
+.stacked-radio-pills .input-container:last-child label {
+    border-radius: 0 25px 25px 0;
+    border-right-width: 2px;
+}
+.stacked-radio-pills label {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #4ff605;
+    border-left-width: 0;
+    border-right-width: 0;
+    color: #ffffff;
+}
+.stacked-radio-pills input:checked+label {
+    background-color: #4ff605;
+    border: 2px solid #4ff605 !important;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    font-weight: 600;
+    color: #000000;
+}
+/* END: Custom Stacked radion pills CSS */
+
+/* Begin:: Custom radio inputs */
+.custom-radio {
+    position: relative;
+}
+.custom-radio input[type=radio] {
+    opacity: 0;
+}
+.custom-radio label {
+    padding-left: 4px;
+    cursor: pointer;
+    margin-bottom: 7px !important;
+}
+.custom-radio label:before {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    content: "";
+    display: inline-block;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 1px solid #4ff605;
+    background: transparent;
+}
+.custom-radio input[type=radio] {
+    margin: 0px;
+    width: 0;
+    height: 0;
+}
+.custom-radio input[type=radio]:disabled + label {
+    color: #999;
+}
+.custom-radio input[type=radio]:disabled + label:before {
+    background-color: #94ff66;
+}
+.custom-radio input[type=radio]:checked + label::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    display: inline-block;
+    font-size: 11px;
+    width: 10px;
+    height: 10px;
+    background-color: #4ff605;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.custom-radio input[type=radio]:checked + label:before {
+    border-color: #4ff605;
+}
+.custom-radio input[type=radio]:checked + label::after {
+    background-color: #4ff605;
+}
+.custom-radio input[type=radio]:checked + label > span:last-of-type {
+    color: #4ff605;
+}
+
+/* Custom Checkbox */
+.custom-checkbox > [type=checkbox], .custom-checkbox label {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .custom-checkbox > [type=checkbox]:not(:checked), .custom-checkbox > [type=checkbox]:checked {
+    position: absolute;
+    left: -9999px;
+  }
+  .custom-checkbox > [type=checkbox]:not(:checked) + label, .custom-checkbox > [type=checkbox]:checked + label {
+    position: relative;
+    padding-left: 2rem;
+    cursor: pointer;
+  }
+  .custom-checkbox > [type=checkbox]:not(:checked) + label:before, .custom-checkbox > [type=checkbox]:checked + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -9px;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #4ff605;
+    background: transparent;
+    border-radius: 2px;
+  }
+  .custom-checkbox > [type=checkbox]:not(:checked) + label:after, .custom-checkbox > [type=checkbox]:checked + label:after {
+    font: normal normal normal 12px/1 "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f00c";
+    position: absolute;
+    top: 48%;
+    margin-top: -6px;
+    left: 2px;
+    color: #4ff605;
+    transition: all 0.2s;
+  }
+  .custom-checkbox > [type=checkbox]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+  }
+  .custom-checkbox > [type=checkbox]:checked + label:after {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  .custom-checkbox > [type=checkbox][data-indeterminate] + label:after {
+    content: "−";
+    left: 2px;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .custom-checkbox > [type=checkbox]:disabled:not(:checked) + label:before {
+    box-shadow: none;
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+    cursor: not-allowed;
+    opacity: 1;
+    color: #dadada;
+  }
+  .custom-checkbox > [type=checkbox]:disabled:checked + label:before {
+    box-shadow: none;
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+    cursor: not-allowed;
+    opacity: 1;
+    color: #4ff605;
+  }
+  .custom-checkbox > [type=checkbox]:disabled:checked + label:after {
+    color: #4ff605;
+    cursor: not-allowed;
+  }
+  .custom-checkbox > [type=checkbox]:disabled + label {
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  .custom-checkbox > [type=checkbox]:checked:focus + label:before, .custom-checkbox > [type=checkbox]:not(:checked):focus + label:before {
+    border: 1px solid #4ff605;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  }
+  .custom-checkbox label:hover:before {
+    border: 1px solid #4ff605 !important;
+  }
+  .custom-checkbox [type=checkbox]:disabled:not(:checked) + label:hover:before, .custom-checkbox [type=checkbox]:disabled:checked + label:hover:before {
+    border: 1px solid #4ff605 !important;
+  }
+/* END:: Custom Checkbox & radio inputs */
+.calories-label .label-text {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.calories-label .label-text:last-of-type {
+    margin-bottom: 0;
+}
+.product-description .nav-tabs .nav-link:hover {
+    color: #4cf600;
+}
+
+/* Basecamp task - Instagram feed added
+https://3.basecamp.com/4852506/buckets/35490110/card_tables/cards/7264283418 */
+.shop-inner-page .related-products .news-cards, 
+.whats-inside-page .related-products .news-cards {
+    margin-bottom: 2.4rem;
+}
+.shop-page.whats-inside-page .gateway {
+    padding-top: 0;
+}
+.shop-inner-page .gateway {
+    margin-top: 0;
+}
+/* END:: Shop inner CSS */
+
+@media screen and (min-width: 1200px) {
+    .product-description .description {
+        max-width: 75%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .product-description .description {
+        max-width: 58%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .products label.pack-label {
+        left: 25px;
+        top: 55px;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .shop-page section.visa {
+        height: 410px;
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    .shop-inner-page .related-products .slick-slide .card .card-body h5 {
+        font-size: 17px;
+    }
+    .products label.pack-label {
+        left: 15%;
+        top: 55px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .shop-page .bread-crumb .about-p, 
+    .shop-inner-page .bread-crumb .about-p {
+        font-size: 14px !important;
+        padding: 10px 5px;
+    }
+
+    .shop-inner-page .description p.text-light > p:last-child > img {
+        width: 82px;
+    }
+    .shop-page section.visa {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .shop-page .behind {
+        padding-top: 20%;
+    }
+    .shop-page .gateway {
+        margin: 0;
+        padding: 60px 0;
+    }
+
+    /* Git issue #318 fixing */
+    .shop-inner-page .description p.text-light > p:last-child {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+    .shop-inner-page .description p.text-light > p:last-child > img {
+        width: 140px;
+        margin-top: 10px;
+    }
+    .shop-inner-page .related-products .slick-slide .card .card-body h5 {
+        font-size: 15px;
+    }
+    .products label.pack-label {
+        left: 28%;
+        top: 55px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .product-img-preview .nav-products img {
+        padding: 0.75rem 0.75rem;
+        height: 100px;
+        width: 100px;
+    }
+    .products label.pack-label {
+        left: 23%;
+        top: 55px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .shop-page section.visa {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tab-section .nav-pills .nav-link {
+        font-size: 13px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    /* Git issue #319 fixing */
+    .shop-inner-page .paginate {
+        margin-bottom: 3rem;
+    }
+    .products label.pack-label {
+        left: 75px;
+        top: 55px;
+    }
+}
+.fa-trash:hover {
+    color: #4ff605;
+}
+
+@media screen and (max-width: 430px) {
+
+    .products label.pack-label {
+        left: 45px;
+        top: 55px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .products label.pack-label {
+        left: 5px;
+        top: 55px;
+    }
+}

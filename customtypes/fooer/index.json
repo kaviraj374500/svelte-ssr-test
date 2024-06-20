@@ -1,0 +1,92 @@
+{
+  "format": "custom",
+  "id": "fooer",
+  "label": "Fooer",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "Logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "info_title": {
+        "type": "Text",
+        "config": {
+          "label": "Info Title",
+          "placeholder": ""
+        }
+      },
+      "shop_title": {
+        "type": "Text",
+        "config": {
+          "label": "Shop Title",
+          "placeholder": ""
+        }
+      },
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        }
+      }
+    },
+    "Info Section": {
+      "slices1": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "info_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Copyright Section": {
+      "slices2": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "copyright_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Product Menu Section": {
+      "slices3": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "product_menu_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Social Section": {
+      "slices4": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "social_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

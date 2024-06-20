@@ -1,0 +1,140 @@
+{
+  "format": "custom",
+  "id": "home_page",
+  "label": "Home Page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {},
+    "Banner Section": {
+      "slices1": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "banner_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Variants Section": {
+      "slices2": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "variants_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Brand Section": {
+      "slices3": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "brand_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Trend Section": {
+      "slices4": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "trend_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Idea Section": {
+      "slices5": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "idea_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Benefit Section": {
+      "slices6": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "benefit_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Logo Section": {
+      "slices7": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "logo_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Work Section": {
+      "slices8": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "work_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Question Section": {
+      "slices9": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "question_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Home Product Section": {
+      "slices10": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "home_product_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

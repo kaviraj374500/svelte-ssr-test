@@ -1,0 +1,35 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"menus_section_list": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"menu_name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "hay",
+									"type": "Text"
+								}
+							],
+							[
+								"menu_uid",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "welcome",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

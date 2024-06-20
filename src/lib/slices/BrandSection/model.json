@@ -1,0 +1,65 @@
+{
+  "id": "brand_section",
+  "type": "SharedSlice",
+  "name": "BrandSection",
+  "description": "BrandSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "logo1": {
+          "type": "Image",
+          "config": {
+            "label": "Logo1",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "logo2": {
+          "type": "Image",
+          "config": {
+            "label": "Logo2",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "btn_text": {
+          "type": "Text",
+          "config": {
+            "label": "Btn Text",
+            "placeholder": ""
+          }
+        },
+        "background_image": {
+          "type": "Image",
+          "config": {
+            "label": "Background Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "preview_background_image": {
+          "type": "Link",
+          "config": {
+            "label": "Preview Background Image",
+            "placeholder": "",
+            "select": "media"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

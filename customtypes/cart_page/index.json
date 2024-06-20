@@ -1,0 +1,23 @@
+{
+  "format": "custom",
+  "id": "cart_page",
+  "label": "Cart Page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {},
+    "Banner Section": {
+      "slices1": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "common_banner_section": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

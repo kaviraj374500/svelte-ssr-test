@@ -1,0 +1,42 @@
+{
+  "id": "menus_section",
+  "type": "SharedSlice",
+  "name": "MenusSection",
+  "description": "MenusSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "menus_section_list": {
+          "type": "Group",
+          "config": {
+            "label": "Menus Section List",
+            "repeat": true,
+            "fields": {
+              "menu_name": {
+                "type": "Text",
+                "config": {
+                  "label": "Menu Name",
+                  "placeholder": ""
+                }
+              },
+              "menu_uid": {
+                "type": "Text",
+                "config": {
+                  "label": "Menu Uid",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

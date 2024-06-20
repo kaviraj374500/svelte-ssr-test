@@ -1,0 +1,19 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"site_name": {
+				"__TYPE__": "FieldContent",
+				"value": "manufacturing",
+				"type": "Text"
+			},
+			"copyright_text": {
+				"__TYPE__": "FieldContent",
+				"value": "cookies",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

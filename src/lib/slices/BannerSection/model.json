@@ -1,0 +1,43 @@
+{
+  "id": "banner_section",
+  "type": "SharedSlice",
+  "name": "BannerSection",
+  "description": "BannerSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "left_video_link": {
+          "type": "Link",
+          "config": {
+            "label": "Left Video Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "right_video_link": {
+          "type": "Link",
+          "config": {
+            "label": "Right Video Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "mobile_video_link": {
+          "type": "Link",
+          "config": {
+            "label": "Mobile Video Link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

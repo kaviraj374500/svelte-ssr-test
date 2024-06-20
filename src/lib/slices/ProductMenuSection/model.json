@@ -1,0 +1,42 @@
+{
+  "id": "product_menu_section",
+  "type": "SharedSlice",
+  "name": "ProductMenuSection",
+  "description": "ProductMenuSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "product_menu_section_list": {
+          "type": "Group",
+          "config": {
+            "label": "Product Menu Section List",
+            "repeat": true,
+            "fields": {
+              "menu_name": {
+                "type": "Text",
+                "config": {
+                  "label": "Menu name",
+                  "placeholder": ""
+                }
+              },
+              "menu_uid": {
+                "type": "Text",
+                "config": {
+                  "label": "Menu Uid",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

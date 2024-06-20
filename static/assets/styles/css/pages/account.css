@@ -1,0 +1,278 @@
+.order-search {
+    position: relative;
+    border: 2px solid #4cf600;
+    margin-top: 10px;
+}
+
+.order-search input {
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    padding: 10px;
+    /* color: #1e2328; */ /* Git issue #183 fixing */
+    font-size: 16px;
+    background-color: #faebd700;
+}
+
+.search-control {
+    color: #fff;
+    width: calc(100% - 50px);
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    /* line-height: normal; */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.order-search .search-btn {
+    text-align: center;
+    font-size: 13px;
+    line-height: 13px;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    min-width: 50px;
+    transform: translateY(-50%);
+    /* border: none; */
+    border-left-color: #4cf600;
+    border-radius: 0;
+    color: #fff;
+    background: #1e232800;
+    transition: .7s cubic-bezier(.17,.85,.438,.99);
+    border-width: 2px;
+}
+
+.order-search .search-btn:hover {
+    /* background-color: #ffd910; */
+    background-color: var(--chartreuse-yellow);
+    color: #fff;
+}
+
+/* Git issue #183 & #188 fixing */
+.order-search .search-btn i, .tab-menu span.tabText, .tab-menu i {
+    color: #fff;
+} 
+.order-search input::placeholder, .profile-style .form-control::placeholder {
+    color: #B7B7B7FF;
+}
+.order-search .search-btn:hover i {
+    color: #4cf600; 
+}
+.modal-content {
+    border-radius: 0;
+}
+/* .cancel-order-popup .modal-content {
+    background-image: url("https://images.prismic.io/camo-energy/c6ba12c5-f1d0-4828-9ee7-e947240ea762_camo_main_bg_v1.jpg?auto=compress,format");
+} */
+/* Git issue #338 fixing */
+.cancel-order-popup .modal-content {
+    color: #ffffff;
+    background-color: #072436 !important;
+    border: 5px solid #4cf600 !important;
+    border-radius: 20px !important;
+    margin: 0 0px;
+}
+.cancel-order-popup a.close-icon, .cancel-order-popup a.close-icon:hover, .cancel-order-popup a.close-icon:focus {
+    font-size: 24px;
+    color: #ffffff;
+}
+.cancel-order-popup a.close-icon:hover, .cancel-order-popup a.close-icon:focus {
+    color: #4cf600;
+}
+.cancel-order-popup .form-control, .cancel-order-popup .form-control:focus {
+    background-color: #ffffff;
+    color: #212529;
+}
+.profile-style .form-control{
+    border: 2px solid #4cf600;
+    background-color: #fff0;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.account-menu .navbar-toggler {
+    color: rgb(79 246 5);
+    border-color: rgb(25 213 0);
+}
+.account-page .navbar-brand a{
+    padding: 0px !important;
+}
+/* Git issue #214 fixing */
+/* .account-page .side-bar .selectedClass, .account-page .tab-menu .selectedClass,
+.account-page .side-bar .selectedClass i, .account-page .tab-menu .selectedClass i,  
+.account-page .side-menu a:hover {
+    color: var(--chartreuse-yellow);
+    line-height: inherit;
+} */
+.account-page .side-bar i {
+    line-height: inherit; /* Git issue #214 fixing */
+}
+.account-page .side-menu {
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+
+.breadcrumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fff;
+}
+.breadcrumb li {
+    margin-right: 10px;
+}
+.breadcrumb li:after {
+    content: "/";
+    margin-left: 10px;
+}
+.breadcrumb li:last-child {
+    margin-right: 0;
+}
+.breadcrumb li:last-child:after {
+    display: none;
+}
+.breadcrumb li a {
+    color: #fff;
+}
+.no-order {
+    color: #fff
+}
+
+.profile-style {
+    color: #fff;
+    line-height: 1.5;
+}
+
+
+/* .profile-style input:focus, .profile-style input:not(:placeholder-shown) {
+    background-color: #fff;
+} */
+
+.login-section .card-center {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.login-section .cardBg {
+    border: 1px solid var(--chartreuse-yellow);
+}
+.btn-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-banner .breadcrumb {
+    padding-bottom: 100px;
+}
+.page-banner .breadcrumb li a, .page-banner .breadcrumb li {
+    font-size: 26px;
+}
+
+.account-page .selectedClass, .tab-menu .tabText.selectedClass, .tab-menu .selectedClass i {
+    color: #4ff605;
+}
+
+.order-details {
+    border: 1px solid #4cf600;
+    color: #fff;
+}
+
+.order-header {
+    background: #fff;
+}
+
+.order-details .order-date {
+    margin-bottom: 0;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #212529;
+    font-size: 16px;
+}
+
+.order-summary span {
+    font-size: 15px;
+    line-height: 2;
+}
+
+.delivery-address p {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.order-details .payment p {
+    font-size: 15px;
+}
+
+.order-details .order-badge {
+    /* font-size: 0.7em; */
+    font-size: 0.9em;
+    font-weight: 500;
+    line-height: 1.75em;
+    /* line-height: 1.9em; */
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(114,114,114,0.9);
+    color: #fff;
+    box-sizing: border-box;
+    min-width: 1.75em;
+    height: 1.75em;
+    padding: 1px 5px;
+    position: absolute;
+    right: -0.75em;
+    top: -0.75em;
+    z-index: 3;
+}
+.order-details .order-image-wrapper {
+    width: 80px;
+}
+
+.order-details .order-image {
+    position: relative;
+    /* height: 8em;
+    width: 5em; */
+    /* Git issue #179 fixing */
+    height: 5em; 
+    width: 4em;
+    text-align: center;
+    padding: 10px;
+    border-radius: 1em;
+    border: 1px solid #cccccc;
+    margin-right: 20px;
+}
+
+.order-details .order-image img {
+    max-width: 30px;
+    /* Git issue #179 fixing */
+    margin-top: -0.6em;
+}
+
+.order-details .order-title {
+    margin-left: 20px;
+    margin-right: 10px;
+    text-align: left;
+    width: 100%;
+}   
+
+@media (max-width: 480px) {
+    .order-search input {
+        font-size: 11px; /* Git issue #188 fixing */
+    }
+    .reorder-btn-sec .btn {
+        min-width: 120px;
+    }
+}
